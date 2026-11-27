@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title='DashCovid', layout='wide')
 
-df = pd.read_csv('/content/WHO_time_series.csv')
+df = pd.read_csv('WHO_time_series.csv')
 
 st.title('Um Dashboard com dados de Covid - Segundo a OMS')
 
